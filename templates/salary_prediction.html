@@ -1,0 +1,39 @@
+<html>
+<head>
+  <h1>Predict Salary</h1>
+</head>
+<body>
+<form method = "post" action = "/predict">
+<label for="name" style="font-weight: bold;">Name</label><br>
+<input type="text" id="name" name="name" placeholder="Enter Name" value=""required >
+<br><br>
+
+<label for="age" style="font-weight: bold;">Age</label><br>
+<input type="number" id="age" name="age" placeholder="Enter Age" step="any" min="0">
+<br><br>
+
+<label for="gender" style= "font-weight: bold;">Select Gender</label><br>
+<input type="radio" id="male" name="gender" value="0">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="1">
+<label for="female">Female</label>
+<br><br>
+
+
+<label for="education_level"style= "font-weight: bold;" >Education Level</label><br>
+<input type="radio" id="bachelors" name="education_level" value="0">
+<label for="bachelors">Bachelor's</label><br>
+<input type="radio" id="masters" name="education_level" value="1">
+<label for="masters">Masters's</label><br>
+<input type="radio" id="phd" name="education_level" value="2">
+<label for="phd">PhD</label>
+<br>
+<br>
+<label for = "Exp"style="font-weight: bold;">Experience in Years</label><br>
+ <input type ="text" id="Exp" name="Exp" placeholder="Enter Experience" value="">
+<br><br>
+
+<input type="submit" value="Predict Salary" style= "font-weight: bold;">
+</form>
+</body>
+</html>

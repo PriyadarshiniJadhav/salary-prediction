@@ -21,5 +21,5 @@ def fun2():
     return render_template("response.html",name =nm, salary =sal)
 
 if __name__ == "__main__" :
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8080)(debug=True)
 
